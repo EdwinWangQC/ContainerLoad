@@ -1,2 +1,4 @@
 # ContainerLoad
-Create a model for supply chain to monitor the container load rate and transportation fee accordingly
+Create a model for supply chain to monitor the container load rate and transportation fee accordingly. Idealy, we use 20', 40' and 40'HC container to test loading more than 500 materials. Treate these three different containers as an input-1 and material list as input 2. With these two input, we cann identity the optimized ways to load one or more container with a most efficient way in volume. 
+Once we got the optimized solution to load the container(the output will be the container qty with the loading file for each container), the next step is to apply the route cost(transportation cost), that will very from destination and country of origin and container type and container load rate which are decided in the 1st step.
+Wish all the supply chain and math professional love this project.
